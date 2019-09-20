@@ -6,7 +6,7 @@ start-music:
 
 docker-init:
 	rm -rf /tmp/docker-python-lambda-builder
-	git clone https://github.com/jperez/docker-python-lambda-builder.git /tmp/docker-python-lambda-builder
+	git clone git@github.com:jperez3/docker-python-lambda-builder.git /tmp/docker-python-lambda-builder
 	docker build /tmp/docker-python-lambda-builder/ -t jperez3/python-lambda-builder:latest
 	rm -rf /tmp/docker-python-lambda-builder
 

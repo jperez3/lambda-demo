@@ -8,8 +8,6 @@ variable "lambda_name" {
     default     = "demo"
 }
 
-
-
 variable "lambda_handler" {
     description = "Lambda handler"
     default     = "app.lambda_handler"  

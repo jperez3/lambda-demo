@@ -46,6 +46,9 @@ _Description: Demo of things Joe learned while messing around with Lambdas_
 ### Create Lambda with Terraform
 
 * Terraform will create the structure needed to support the lambda in AWS
+    - Lambda
+    - IAM Role
+    - IAM Policy
 * Initialize Terraform: `make tf-init`
 * Use Terraform to provision new lambda: `make tf-apply`
     - You will be prompted to review and confirm the changes
