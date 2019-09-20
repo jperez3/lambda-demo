@@ -7,11 +7,11 @@ _Description: Demo of things Joe learned while messing around with Lambdas_
 ## Background
 
 ### Addressing need for Lambdas
-* We needed a way to provision certificates in the new EU account
-    - We didn't have rundeck to help us out
+* We needed a way to provision certificates in the new AWS account
+    - We didn't have [Rundeck](https://www.rundeck.com/open-source) to help us out
     - There would be more overhead and cost to exploring ECS or EKS
     - Lambdas are usually cheap to run
-* We already have lambdas in production (dropsync), but no one is currently supporting/owning them from a standardization and deployment perspective
+* We already have lambdas in production, but no one is currently supporting/owning them from a standardization and deployment perspective
 
 ## Demo Overview
 
@@ -49,7 +49,6 @@ _Description: Demo of things Joe learned while messing around with Lambdas_
 * Initialize Terraform: `make tf-init`
 * Use Terraform to provision new lambda: `make tf-apply`
     - You will be prompted to review and confirm the changes
-
 
 
 ### Testing the Lambda
