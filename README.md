@@ -132,7 +132,7 @@ aws_iam_role.lambda_role: Destruction complete after 11s
 ## Additional Thoughts
 * There are a bunch more things that lambdas can do
     - Interface with other AWS resources
-    - We didn't even touch on the API Gateway (Ask Carlo for more details)
+    - We didn't even touch on the API Gateway
 * Deployment pipelines need to be figured out for each runtime (python/ruby/nodejs)
 * Terraform is great for provisioning the resources, but not great for updating the lambda after initialization
 * Lambdas are great for monitoring checks
